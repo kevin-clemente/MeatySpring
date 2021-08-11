@@ -1,7 +1,7 @@
 package com.kvanDev.Meaty.api;
 
-import com.kvanDev.Meaty.model.Receita;
-import com.kvanDev.Meaty.service.ReceitaService;
+import com.kvanDev.Meaty.model.Recipes;
+import com.kvanDev.Meaty.service.RecipesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,15 +11,15 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping(path = "/meaty")
 public class ReceitaController {
-    private final ReceitaService receitaService;
+    private final RecipesService recipesService;
     @Autowired
-    public ReceitaController(ReceitaService receitaService) {
-        this.receitaService = receitaService;
+    public ReceitaController(RecipesService recipesService) {
+        this.recipesService = recipesService;
     }
 
-    @GetMapping(path = "/getAllReceitas")
-    public @ResponseBody Iterable<Receita> getAll(){
-        return receitaService.getAllReceitas();
+    @GetMapping(path = "/getAllRecipes")
+    public @ResponseBody Iterable<Recipes> getAll(){
+        return recipesService.getAllRecipes();
     }
 
 }

@@ -1,7 +1,7 @@
 package com.kvanDev.Meaty.api;
 
-import com.kvanDev.Meaty.model.Ingrediente;
-import com.kvanDev.Meaty.service.IngredienteService;
+import com.kvanDev.Meaty.model.Ingredients;
+import com.kvanDev.Meaty.service.IngredientsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,17 +13,17 @@ import java.util.List;
 @Controller
 @RequestMapping(path="/demo")
 public class IngredienteController {
-    private final IngredienteService ingredienteService;
+    private final IngredientsService ingredientsService;
 
     @Autowired
-    public IngredienteController(IngredienteService ingredienteService) {
-        this.ingredienteService = ingredienteService;
+    public IngredienteController(IngredientsService ingredientsService) {
+        this.ingredientsService = ingredientsService;
     }
 
     @GetMapping(path = "/all")
     public @ResponseBody
-    List<Ingrediente> getAllIngredientes(){
-        return ingredienteService.getAllIngredientes();
+    List<Ingredients> getAllIngredientes(){
+        return ingredientsService.getAllIngredientes();
     }
 
 }
