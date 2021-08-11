@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @RequestMapping(path = "/meaty")
-public class ReceitaController {
+public class RecipesController {
     private final RecipesService recipesService;
     @Autowired
-    public ReceitaController(RecipesService recipesService) {
+    public RecipesController(RecipesService recipesService) {
         this.recipesService = recipesService;
     }
 

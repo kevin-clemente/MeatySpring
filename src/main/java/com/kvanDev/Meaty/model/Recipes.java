@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.sql.Timestamp;
 
 @Entity(name="receita")
-public class Receita {
+public class Recipes {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int receita_id;

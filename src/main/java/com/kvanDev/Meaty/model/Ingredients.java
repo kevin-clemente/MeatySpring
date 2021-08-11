@@ -4,8 +4,7 @@ import javax.persistence.*;
 
 @Entity(name = "ingrediente")
 @Table
-@Sql
-public class Ingrediente {
+public class Ingredients {
     @Id
     @SequenceGenerator(
             name = "ingredientSequence",
@@ -28,13 +27,13 @@ public class Ingrediente {
         this.id = id;
     }
 
-    public Ingrediente(Long id, String name, String type) {
+    public Ingredients(Long id, String name, String type) {
         this.id = id;
         this.name = name;
         this.type = type;
     }
 
-    public Ingrediente(String name, String type) {
+    public Ingredients(String name, String type) {
         this.name = name;
         this.type = type;
     }

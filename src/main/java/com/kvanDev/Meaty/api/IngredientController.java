@@ -12,18 +12,18 @@ import java.util.List;
 
 @Controller
 @RequestMapping(path="/demo")
-public class IngredienteController {
+public class IngredientController {
     private final IngredientsService ingredientsService;
 
     @Autowired
-    public IngredienteController(IngredientsService ingredientsService) {
+    public IngredientController(IngredientsService ingredientsService) {
         this.ingredientsService = ingredientsService;
     }
 
     @GetMapping(path = "/all")
     public @ResponseBody
-    List<Ingredients> getAllIngredientes(){
-        return ingredientsService.getAllIngredientes();
+    List<Ingredients> getAllIngredients(){
+        return ingredientsService.getAllIngredients();
     }
 
 }

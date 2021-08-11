@@ -5,7 +5,7 @@ import org.springframework.data.repository.Repository;
 
 import java.util.List;
 
-public interface IngreditenteRepository extends Repository<Ingredients,Integer> {
+public interface IngreditentRepository extends Repository<Ingredients,Integer> {
     List<Ingredients> findAll();
     Ingredients findById(int id);
     Ingredients findByName(String name);

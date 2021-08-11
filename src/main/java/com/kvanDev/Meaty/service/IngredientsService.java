@@ -1,24 +1,24 @@
 package com.kvanDev.Meaty.service;
 
-import com.kvanDev.Meaty.dao.IngreditenteRepository;
-import com.kvanDev.Meaty.model.Ingrediente;
+import com.kvanDev.Meaty.dao.IngreditentRepository;
+import com.kvanDev.Meaty.model.Ingredients;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class IngredienteService {
+public class IngredientsService {
 
-    private final IngreditenteRepository ingreditenteRepository;
+    private final IngreditentRepository ingreditentRepository;
 
     @Autowired
-    public IngredienteService(IngreditenteRepository ingreditenteRepository) {
-        this.ingreditenteRepository = ingreditenteRepository;
+    public IngredientsService(IngreditentRepository ingreditentRepository) {
+        this.ingreditentRepository = ingreditentRepository;
     }
 
-    public List<Ingrediente> getAllIngredientes(){
-        return ingreditenteRepository.findAll();
+    public List<Ingredients> getAllIngredients(){
+        return ingreditentRepository.findAll();
     }
 
 }
