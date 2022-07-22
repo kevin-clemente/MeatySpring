@@ -1,7 +1,7 @@
 package com.kvanDev.Meaty.service;
 
 import com.kvanDev.Meaty.dao.ReceitaRepository;
-import com.kvanDev.Meaty.model.Recipes;
+import com.kvanDev.Meaty.model.Recipe;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,7 +14,7 @@ public class RecipesService {
         this.receitaRepository = receitaRepository;
     }
 
-    public Iterable<Recipes> getAllRecipes(){
+    public Iterable<Recipe> getAllRecipes(){
         return receitaRepository.findAll();
     }
 

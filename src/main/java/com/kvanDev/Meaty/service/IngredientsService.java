@@ -1,7 +1,7 @@
 package com.kvanDev.Meaty.service;
 
 import com.kvanDev.Meaty.dao.IngreditentRepository;
-import com.kvanDev.Meaty.model.Ingredients;
+import com.kvanDev.Meaty.model.Ingredient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,8 +17,11 @@ public class IngredientsService {
         this.ingreditentRepository = ingreditentRepository;
     }
 
-    public List<Ingredients> getAllIngredients(){
+    public List<Ingredient> getAllIngredients(){
         return ingreditentRepository.findAll();
     }
 
+    public Ingredient saveIngredient(Ingredient ingredient){
+        return ingreditentRepository.saveAndFlush(ingredient);
+    }
 }

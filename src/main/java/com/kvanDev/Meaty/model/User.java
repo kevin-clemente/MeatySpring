@@ -2,21 +2,40 @@ package com.kvanDev.Meaty.model;
 
 import javax.persistence.*;
 
-@Entity(name = "user")
+@Entity
+@Table
 public class User {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private int userId;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long userId;
     private String password;
     private String salt;
     private String username;
     private String email;
 
-    public int getUserId() {
+    public User() {
+    }
+
+    public User(String password, String salt, String username, String email) {
+        this.password = password;
+        this.salt = salt;
+        this.username = username;
+        this.email = email;
+    }
+
+    public User(Long userId, String password, String salt, String username, String email) {
+        this.userId = userId;
+        this.password = password;
+        this.salt = salt;
+        this.username = username;
+        this.email = email;
+    }
+
+    public Long getUserId() {
         return userId;
     }
 
-    public void setUserId(int userId) {
+    public void setUserId(Long userId) {
         this.userId = userId;
     }
 

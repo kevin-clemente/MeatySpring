@@ -1,13 +1,13 @@
 package com.kvanDev.Meaty.dao;
 
-import com.kvanDev.Meaty.model.Ingredients;
+import com.kvanDev.Meaty.model.Ingredient;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.Repository;
 
 import java.util.List;
 
-public interface IngreditentRepository extends Repository<Ingredients,Integer> {
-    List<Ingredients> findAll();
-    Ingredients findById(int id);
-    Ingredients findByName(String name);
-    Ingredients findByType(String type);
+public interface IngreditentRepository extends JpaRepository<Ingredient,Integer> {
+    public List<Ingredient> findAll();
+    public void deleteAllInBatch();
+    public Ingredient save(Ingredient ingredient);
 }
