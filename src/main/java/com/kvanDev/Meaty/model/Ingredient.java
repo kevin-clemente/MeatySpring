@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Objects;
@@ -15,15 +15,7 @@ import java.util.Set;
 @Table
 public class Ingredient implements Serializable {
     @Id
-    @SequenceGenerator(
-            name = "ingredientSequence",
-            sequenceName = "ingredientSequence",
-            allocationSize = 1
-    )
-    @GeneratedValue(
-            strategy = GenerationType.SEQUENCE,
-            generator = "ingredientSequence"
-    )
+    @GeneratedValue (strategy = GenerationType.IDENTITY)
     private Long ingredient_id;
     private String ingredient_name;
     @ManyToOne

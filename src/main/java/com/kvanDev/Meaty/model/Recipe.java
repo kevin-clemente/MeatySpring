@@ -1,6 +1,8 @@
 package com.kvanDev.Meaty.model;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
+import org.springframework.boot.context.properties.bind.DefaultValue;
+
 import java.io.Serializable;
 import java.sql.Timestamp;
 import java.util.HashSet;
