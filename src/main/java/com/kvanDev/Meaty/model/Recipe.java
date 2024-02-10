@@ -28,13 +28,6 @@ public class Recipe implements Serializable {
     public Recipe() {
     }
 
-    public Recipe(String recipe_name, int recipe_people, Timestamp recipe_date_insert, String imagem_url) {
-        this.recipe_name = recipe_name;
-        this.recipe_people = recipe_people;
-        this.recipe_date_insert = recipe_date_insert;
-        this.imagem_url = imagem_url;
-    }
-
     public Recipe(int recipe_id, String recipe_name, int recipe_people, Timestamp recipe_date_insert, String imagem_url, Set<Ingredient> ingredient) {
         this.recipe_id = recipe_id;
         this.recipe_name = recipe_name;
@@ -92,6 +85,7 @@ public class Recipe implements Serializable {
                 ", receita_pessoas=" + recipe_people +
                 ", receita_date_insert=" + recipe_date_insert +
                 ", imagem_url='" + imagem_url + '\'' +
+                ", ingredient='"+ingredient+ '\'' +
                 '}';
     }
 }

@@ -18,4 +18,8 @@ public class RecipesService {
         return receitaRepository.findAll();
     }
 
+    public Recipe createRecipe(Recipe recipe){
+        return receitaRepository.saveAndFlush(recipe);
+    }
+
 }
