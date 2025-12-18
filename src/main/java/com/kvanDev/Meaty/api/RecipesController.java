@@ -23,7 +23,7 @@ public class RecipesController {
 
     @PostMapping(path = "/createRecipe")
     public @ResponseBody Recipe createRecipe(@RequestHeader("userId") int userId, @RequestBody Recipe recipe) {
-        recipe.setRecipe_people(userId);
+        recipe.setRecipePeople(userId);
         return recipesService.createRecipe(recipe);
     }
 }

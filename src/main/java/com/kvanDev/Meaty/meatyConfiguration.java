@@ -1,39 +1,29 @@
 package com.kvanDev.Meaty;
 
-import com.kvanDev.Meaty.dao.IngreditentRepository;
-import com.kvanDev.Meaty.dao.TypeRepository;
-import com.kvanDev.Meaty.model.Ingredient;
-import com.kvanDev.Meaty.model.Type;
+import com.kvanDev.Meaty.service.RecipeDataLoaderService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import java.util.List;
-
 @Configuration
 public class meatyConfiguration  {
     @Bean
-    CommandLineRunner commandLineRunner (TypeRepository repository, IngreditentRepository ingreditentRepository) {
+    CommandLineRunner commandLineRunner(RecipeDataLoaderService recipeDataLoaderService) {
         return args -> {
+            try {
+                System.out.println("=== Starting data loading from JSON ===");
 
-            ingreditentRepository.deleteAllInBatch();
-            repository.deleteAllInBatch();
+                // Clear existing data
+                recipeDataLoaderService.clearAllData();
 
-            Type peixe = new Type("peixe");
-            Type carne = new Type("carne");
-            Type especiaria = new Type("especiaria");
+                // Load data from JSON file in resources
+                recipeDataLoaderService.loadRecipesFromJson("recipes_data.json");
 
-            repository.saveAll(List.of(peixe,carne,especiaria));
-
-            Ingredient pernil = new Ingredient("pernil", carne);
-            Ingredient robalo = new Ingredient("robalo", peixe);
-            Ingredient dourada = new Ingredient("dourada", peixe);
-
-            ingreditentRepository.saveAll(List.of(robalo,dourada,pernil));
-            ingreditentRepository.flush();
-            repository.flush();
-
-
+                System.out.println("=== Data loading completed successfully ===");
+            } catch (Exception e) {
+                System.err.println("Error loading recipe data: " + e.getMessage());
+                e.printStackTrace();
+            }
         };
     }
 }

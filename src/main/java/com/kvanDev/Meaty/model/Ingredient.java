@@ -1,57 +1,54 @@
 package com.kvanDev.Meaty.model;
 
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
-
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 
-@Entity
+@Entity(name = "ingredient")
 @Table
 public class Ingredient implements Serializable {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
-    private Long ingredient_id;
-    private String ingredient_name;
+    private Long ingredientId;
+    private String ingredientName;
     @ManyToOne
     @JoinColumn(name = "type_id")
     private Type type;
-    @ManyToMany(fetch = FetchType.LAZY , cascade = CascadeType.ALL, mappedBy = "ingredient")
-    private Set<Recipe> recipe = new HashSet<>();
+    @OneToMany(mappedBy = "ingredient")
+    @JsonBackReference
+    private Set<RecipesIngredients> recipesIngredients = new HashSet<>();
 
-    public Long getIngredient_id() {
-        return ingredient_id;
+    public Long getIngredientId() {
+        return ingredientId;
     }
 
-    public void setIngredient_id(Long id) {
-        this.ingredient_id = id;
+    public void setIngredientId(Long id) {
+        this.ingredientId = id;
     }
 
     public Ingredient() {
     }
 
-    public Ingredient(Long ingredient_id, String ingredient_name, Type type) {
-        this.ingredient_id = ingredient_id;
-        this.ingredient_name = ingredient_name;
+    public Ingredient(Long ingredientId, String ingredientName, Type type) {
+        this.ingredientId = ingredientId;
+        this.ingredientName = ingredientName;
         this.type = type;
     }
 
-    public Ingredient(String ingredient_name, Type type) {
-        this.ingredient_name = ingredient_name;
+    public Ingredient(String ingredientName, Type type) {
+        this.ingredientName = ingredientName;
         this.type = type;
     }
 
-    public String getIngredient_name() {
-        return ingredient_name;
+    public String getIngredientName() {
+        return ingredientName;
     }
 
-    public void setIngredient_name(String ingredient_name) {
-        this.ingredient_name = ingredient_name;
+    public void setIngredientName(String ingredientName) {
+        this.ingredientName = ingredientName;
     }
 
     public Type getType() {
@@ -67,11 +64,11 @@ public class Ingredient implements Serializable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Ingredient that = (Ingredient) o;
-        return ingredient_id.equals(that.ingredient_id);
+        return ingredientId.equals(that.ingredientId);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(ingredient_id);
+        return Objects.hash(ingredientId);
     }
 }

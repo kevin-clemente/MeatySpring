@@ -7,13 +7,13 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-@Entity
+@Entity(name = "type")
 @Table
 public class Type implements Serializable {
     @Id
     @GeneratedValue(strategy =  GenerationType.IDENTITY)
-    private Long type_id;
-    private String type_name;
+    private Long typeId;
+    private String typeName;
     @OneToMany( mappedBy = "type")
     @JsonBackReference
     private List<Ingredient> ingredients = new ArrayList<>();
@@ -21,29 +21,29 @@ public class Type implements Serializable {
     public Type() {
     }
 
-    public Type(Long type_id, String type_name) {
-        this.type_id = type_id;
-        this.type_name = type_name;
+    public Type(Long typeId, String typeName) {
+        this.typeId = typeId;
+        this.typeName = typeName;
     }
 
-    public Type(String type_name) {
-        this.type_name = type_name;
+    public Type(String typeName) {
+        this.typeName = typeName;
     }
 
-    public Long getType_id() {
-        return type_id;
+    public Long getTypeId() {
+        return typeId;
     }
 
-    public void setType_id(Long type_id) {
-        this.type_id = type_id;
+    public void setTypeId(Long typeId) {
+        this.typeId = typeId;
     }
 
-    public String getType_name() {
-        return type_name;
+    public String getTypeName() {
+        return typeName;
     }
 
-    public void setType_name(String type_name) {
-        this.type_name = type_name;
+    public void setTypeName(String typeName) {
+        this.typeName = typeName;
     }
 
     public List<Ingredient> getIngredients() {
