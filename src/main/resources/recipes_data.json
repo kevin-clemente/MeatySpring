@@ -1,0 +1,3510 @@
+{
+  "types": [
+    {
+      "type_name": "carne"
+    },
+    {
+      "type_name": "peixe"
+    },
+    {
+      "type_name": "especiaria"
+    },
+    {
+      "type_name": "vegetal"
+    },
+    {
+      "type_name": "lacticínio"
+    },
+    {
+      "type_name": "cereal"
+    },
+    {
+      "type_name": "leguminosa"
+    },
+    {
+      "type_name": "fruta"
+    },
+    {
+      "type_name": "erva aromática"
+    },
+    {
+      "type_name": "molho"
+    }
+  ],
+  "ingredients": [
+    {
+      "ingredient_name": "frango",
+      "type_name": "carne"
+    },
+    {
+      "ingredient_name": "pernil",
+      "type_name": "carne"
+    },
+    {
+      "ingredient_name": "costela de porco",
+      "type_name": "carne"
+    },
+    {
+      "ingredient_name": "carne de vaca",
+      "type_name": "carne"
+    },
+    {
+      "ingredient_name": "picanha",
+      "type_name": "carne"
+    },
+    {
+      "ingredient_name": "cordeiro",
+      "type_name": "carne"
+    },
+    {
+      "ingredient_name": "bacon",
+      "type_name": "carne"
+    },
+    {
+      "ingredient_name": "linguiça",
+      "type_name": "carne"
+    },
+    {
+      "ingredient_name": "robalo",
+      "type_name": "peixe"
+    },
+    {
+      "ingredient_name": "dourada",
+      "type_name": "peixe"
+    },
+    {
+      "ingredient_name": "salmão",
+      "type_name": "peixe"
+    },
+    {
+      "ingredient_name": "bacalhau",
+      "type_name": "peixe"
+    },
+    {
+      "ingredient_name": "atum",
+      "type_name": "peixe"
+    },
+    {
+      "ingredient_name": "camarão",
+      "type_name": "peixe"
+    },
+    {
+      "ingredient_name": "lula",
+      "type_name": "peixe"
+    },
+    {
+      "ingredient_name": "polvo",
+      "type_name": "peixe"
+    },
+    {
+      "ingredient_name": "tomate",
+      "type_name": "vegetal"
+    },
+    {
+      "ingredient_name": "cebola",
+      "type_name": "vegetal"
+    },
+    {
+      "ingredient_name": "alho",
+      "type_name": "vegetal"
+    },
+    {
+      "ingredient_name": "pimentão",
+      "type_name": "vegetal"
+    },
+    {
+      "ingredient_name": "batata",
+      "type_name": "vegetal"
+    },
+    {
+      "ingredient_name": "cenoura",
+      "type_name": "vegetal"
+    },
+    {
+      "ingredient_name": "brócolis",
+      "type_name": "vegetal"
+    },
+    {
+      "ingredient_name": "couve",
+      "type_name": "vegetal"
+    },
+    {
+      "ingredient_name": "espinafre",
+      "type_name": "vegetal"
+    },
+    {
+      "ingredient_name": "cogumelo",
+      "type_name": "vegetal"
+    },
+    {
+      "ingredient_name": "berinjela",
+      "type_name": "vegetal"
+    },
+    {
+      "ingredient_name": "abobrinha",
+      "type_name": "vegetal"
+    },
+    {
+      "ingredient_name": "abóbora",
+      "type_name": "vegetal"
+    },
+    {
+      "ingredient_name": "alface",
+      "type_name": "vegetal"
+    },
+    {
+      "ingredient_name": "rúcula",
+      "type_name": "vegetal"
+    },
+    {
+      "ingredient_name": "sal",
+      "type_name": "especiaria"
+    },
+    {
+      "ingredient_name": "pimenta do reino",
+      "type_name": "especiaria"
+    },
+    {
+      "ingredient_name": "pimenta calabresa",
+      "type_name": "especiaria"
+    },
+    {
+      "ingredient_name": "açafrão",
+      "type_name": "especiaria"
+    },
+    {
+      "ingredient_name": "colorau",
+      "type_name": "especiaria"
+    },
+    {
+      "ingredient_name": "cominho",
+      "type_name": "especiaria"
+    },
+    {
+      "ingredient_name": "curry",
+      "type_name": "especiaria"
+    },
+    {
+      "ingredient_name": "noz-moscada",
+      "type_name": "especiaria"
+    },
+    {
+      "ingredient_name": "canela",
+      "type_name": "especiaria"
+    },
+    {
+      "ingredient_name": "leite",
+      "type_name": "lacticínio"
+    },
+    {
+      "ingredient_name": "queijo mozzarella",
+      "type_name": "lacticínio"
+    },
+    {
+      "ingredient_name": "queijo parmesão",
+      "type_name": "lacticínio"
+    },
+    {
+      "ingredient_name": "queijo cheddar",
+      "type_name": "lacticínio"
+    },
+    {
+      "ingredient_name": "requeijão",
+      "type_name": "lacticínio"
+    },
+    {
+      "ingredient_name": "manteiga",
+      "type_name": "lacticínio"
+    },
+    {
+      "ingredient_name": "creme de leite",
+      "type_name": "lacticínio"
+    },
+    {
+      "ingredient_name": "iogurte",
+      "type_name": "lacticínio"
+    },
+    {
+      "ingredient_name": "arroz",
+      "type_name": "cereal"
+    },
+    {
+      "ingredient_name": "massa",
+      "type_name": "cereal"
+    },
+    {
+      "ingredient_name": "macarrão",
+      "type_name": "cereal"
+    },
+    {
+      "ingredient_name": "farinha de trigo",
+      "type_name": "cereal"
+    },
+    {
+      "ingredient_name": "pão",
+      "type_name": "cereal"
+    },
+    {
+      "ingredient_name": "aveia",
+      "type_name": "cereal"
+    },
+    {
+      "ingredient_name": "quinoa",
+      "type_name": "cereal"
+    },
+    {
+      "ingredient_name": "feijão preto",
+      "type_name": "leguminosa"
+    },
+    {
+      "ingredient_name": "feijão carioca",
+      "type_name": "leguminosa"
+    },
+    {
+      "ingredient_name": "lentilha",
+      "type_name": "leguminosa"
+    },
+    {
+      "ingredient_name": "grão de bico",
+      "type_name": "leguminosa"
+    },
+    {
+      "ingredient_name": "ervilha",
+      "type_name": "leguminosa"
+    },
+    {
+      "ingredient_name": "limão",
+      "type_name": "fruta"
+    },
+    {
+      "ingredient_name": "laranja",
+      "type_name": "fruta"
+    },
+    {
+      "ingredient_name": "abacaxi",
+      "type_name": "fruta"
+    },
+    {
+      "ingredient_name": "maçã",
+      "type_name": "fruta"
+    },
+    {
+      "ingredient_name": "banana",
+      "type_name": "fruta"
+    },
+    {
+      "ingredient_name": "manjericão",
+      "type_name": "erva aromática"
+    },
+    {
+      "ingredient_name": "coentro",
+      "type_name": "erva aromática"
+    },
+    {
+      "ingredient_name": "salsa",
+      "type_name": "erva aromática"
+    },
+    {
+      "ingredient_name": "cebolinha",
+      "type_name": "erva aromática"
+    },
+    {
+      "ingredient_name": "orégano",
+      "type_name": "erva aromática"
+    },
+    {
+      "ingredient_name": "tomilho",
+      "type_name": "erva aromática"
+    },
+    {
+      "ingredient_name": "alecrim",
+      "type_name": "erva aromática"
+    },
+    {
+      "ingredient_name": "azeite",
+      "type_name": "molho"
+    },
+    {
+      "ingredient_name": "shoyu",
+      "type_name": "molho"
+    },
+    {
+      "ingredient_name": "molho de tomate",
+      "type_name": "molho"
+    },
+    {
+      "ingredient_name": "vinagre",
+      "type_name": "molho"
+    },
+    {
+      "ingredient_name": "mostarda",
+      "type_name": "molho"
+    },
+    {
+      "ingredient_name": "maionese",
+      "type_name": "molho"
+    }
+  ],
+  "recipes": [
+    {
+      "recipe_name": "Frango Grelhado com Legumes",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1251208/pexels-photo-1251208.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "frango",
+          "quantity": "800g"
+        },
+        {
+          "ingredient_name": "brócolis",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "cenoura",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "3 colheres de sopa"
+        },
+        {
+          "ingredient_name": "sal",
+          "quantity": "a gosto"
+        },
+        {
+          "ingredient_name": "pimenta do reino",
+          "quantity": "a gosto"
+        }
+      ],
+      "description": "Peitos de frango suculentos grelhados e acompanhados por legumes frescos salteados. Refeição saudável e nutritiva, perfeita para o dia a dia."
+    },
+    {
+      "recipe_name": "Bacalhau à Portuguesa",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/10040705/pexels-photo-10040705.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "bacalhau",
+          "quantity": "1kg"
+        },
+        {
+          "ingredient_name": "batata",
+          "quantity": "800g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "3 unidades"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "6 dentes"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "150ml"
+        },
+        {
+          "ingredient_name": "salsa",
+          "quantity": "1 maço"
+        }
+      ],
+      "description": "Clássico prato português com bacalhau desfiado, batatas cozidas, cebolas douradas e muito azeite. Tradição que atravessa gerações."
+    },
+    {
+      "recipe_name": "Feijoada Completa",
+      "recipe_people": 8,
+      "imagem_url": "https://images.pexels.com/photos/4210863/pexels-photo-4210863.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "feijão preto",
+          "quantity": "500g"
+        },
+        {
+          "ingredient_name": "pernil",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "linguiça",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "bacon",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "arroz",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "couve",
+          "quantity": "2 maços"
+        },
+        {
+          "ingredient_name": "laranja",
+          "quantity": "4 unidades"
+        }
+      ],
+      "description": "Prato típico brasileiro com feijão preto cozido com carnes variadas. Servido com arroz, couve refogada e laranja. Perfeito para reunir a família."
+    },
+    {
+      "recipe_name": "Risoto de Camarão",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/725997/pexels-photo-725997.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "arroz",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "camarão",
+          "quantity": "500g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "3 dentes"
+        },
+        {
+          "ingredient_name": "queijo parmesão",
+          "quantity": "100g"
+        },
+        {
+          "ingredient_name": "manteiga",
+          "quantity": "50g"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "2 colheres de sopa"
+        }
+      ],
+      "description": "Arroz cremoso cozido lentamente com camarões frescos, vinho branco e queijo parmesão. Elegância italiana no seu prato."
+    },
+    {
+      "recipe_name": "Salmão ao Molho de Limão",
+      "recipe_people": 2,
+      "imagem_url": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "salmão",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "limão",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "manteiga",
+          "quantity": "30g"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "2 dentes"
+        },
+        {
+          "ingredient_name": "sal",
+          "quantity": "a gosto"
+        },
+        {
+          "ingredient_name": "pimenta do reino",
+          "quantity": "a gosto"
+        }
+      ],
+      "description": "Filé de salmão grelhado coberto com um delicado molho de limão e manteiga. Leve e sofisticado."
+    },
+    {
+      "recipe_name": "Picanha na Brasa",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/1857729/pexels-photo-1857729.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "picanha",
+          "quantity": "1.5kg"
+        },
+        {
+          "ingredient_name": "sal",
+          "quantity": "sal grosso a gosto"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "4 dentes"
+        }
+      ],
+      "description": "Corte nobre da carne bovina preparado na brasa com apenas sal grosso. O churrasco brasileiro em sua forma mais pura."
+    },
+    {
+      "recipe_name": "Lasanha Bolonhesa",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/116738/pexels-photo-116738.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "massa",
+          "quantity": "500g"
+        },
+        {
+          "ingredient_name": "carne de vaca",
+          "quantity": "500g"
+        },
+        {
+          "ingredient_name": "molho de tomate",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "queijo mozzarella",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "3 dentes"
+        },
+        {
+          "ingredient_name": "manjericão",
+          "quantity": "1 maço"
+        }
+      ],
+      "description": "Camadas de massa intercaladas com molho bolonhesa caseiro e muito queijo gratinado. Comfort food que agrada a todos."
+    },
+    {
+      "recipe_name": "Polvo à Lagareiro",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/566345/pexels-photo-566345.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "polvo",
+          "quantity": "1.2kg"
+        },
+        {
+          "ingredient_name": "batata",
+          "quantity": "600g"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "8 dentes"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "200ml"
+        },
+        {
+          "ingredient_name": "sal",
+          "quantity": "a gosto"
+        },
+        {
+          "ingredient_name": "coentro",
+          "quantity": "1 maço"
+        }
+      ],
+      "description": "Polvo cozido e assado com batatas, regado com azeite português e alho. Especialidade das costas lusitanas."
+    },
+    {
+      "recipe_name": "Costela de Porco Assada",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "costela de porco",
+          "quantity": "1.5kg"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "6 dentes"
+        },
+        {
+          "ingredient_name": "colorau",
+          "quantity": "2 colheres de sopa"
+        },
+        {
+          "ingredient_name": "sal",
+          "quantity": "a gosto"
+        },
+        {
+          "ingredient_name": "pimenta do reino",
+          "quantity": "1 colher de chá"
+        },
+        {
+          "ingredient_name": "vinagre",
+          "quantity": "3 colheres de sopa"
+        }
+      ],
+      "description": "Costela marinada com temperos especiais e assada até ficar macia e dourada. Sucesso garantido nos churrascos."
+    },
+    {
+      "recipe_name": "Moqueca de Peixe",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "robalo",
+          "quantity": "800g"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "3 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "pimentão",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "leite",
+          "quantity": "400ml (leite de coco)"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "4 colheres de sopa (azeite de dendê)"
+        },
+        {
+          "ingredient_name": "coentro",
+          "quantity": "1 maço"
+        }
+      ],
+      "description": "Ensopado capixaba com peixe fresco, leite de coco, dendê e muito coentro. Sabor da costa brasileira."
+    },
+    {
+      "recipe_name": "Arroz de Polvo",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "polvo",
+          "quantity": "800g"
+        },
+        {
+          "ingredient_name": "arroz",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "4 dentes"
+        },
+        {
+          "ingredient_name": "pimentão",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "salsa",
+          "quantity": "1 maço"
+        }
+      ],
+      "description": "Arroz caldoso cozido com polvo macio, tomate e pimentão. Prato reconfortante de origem portuguesa."
+    },
+    {
+      "recipe_name": "Frango ao Curry",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "frango",
+          "quantity": "600g"
+        },
+        {
+          "ingredient_name": "curry",
+          "quantity": "2 colheres de sopa"
+        },
+        {
+          "ingredient_name": "leite",
+          "quantity": "400ml (leite de coco)"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "3 dentes"
+        },
+        {
+          "ingredient_name": "arroz",
+          "quantity": "300g"
+        }
+      ],
+      "description": "Pedaços de frango em molho cremoso de curry e leite de coco. Toque exótico para o jantar."
+    },
+    {
+      "recipe_name": "Atum Selado com Gergelim",
+      "recipe_people": 2,
+      "imagem_url": "https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "atum",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "shoyu",
+          "quantity": "4 colheres de sopa"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "2 dentes"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "2 colheres de sopa"
+        },
+        {
+          "ingredient_name": "sal",
+          "quantity": "a gosto"
+        }
+      ],
+      "description": "Atum fresco selado rapidamente, deixando o interior rosado, coberto com gergelim tostado. Refinamento japonês."
+    },
+    {
+      "recipe_name": "Cordeiro Assado com Batatas",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/410648/pexels-photo-410648.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "cordeiro",
+          "quantity": "1.2kg"
+        },
+        {
+          "ingredient_name": "batata",
+          "quantity": "800g"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "8 dentes"
+        },
+        {
+          "ingredient_name": "alecrim",
+          "quantity": "4 ramos"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "100ml"
+        },
+        {
+          "ingredient_name": "sal",
+          "quantity": "a gosto"
+        },
+        {
+          "ingredient_name": "pimenta do reino",
+          "quantity": "a gosto"
+        }
+      ],
+      "description": "Cordeiro temperado com alecrim e assado com batatas até ficar macio. Perfeito para ocasiões especiais."
+    },
+    {
+      "recipe_name": "Macarrão à Carbonara",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/128408/pexels-photo-128408.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "macarrão",
+          "quantity": "500g"
+        },
+        {
+          "ingredient_name": "bacon",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "queijo parmesão",
+          "quantity": "150g"
+        },
+        {
+          "ingredient_name": "creme de leite",
+          "quantity": "200ml"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "2 dentes"
+        }
+      ],
+      "description": "Massa al dente com molho cremoso de bacon, ovos e queijo parmesão. Simplicidade romana irresistível."
+    },
+    {
+      "recipe_name": "Dourada Assada no Forno",
+      "recipe_people": 2,
+      "imagem_url": "https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "dourada",
+          "quantity": "600g"
+        },
+        {
+          "ingredient_name": "limão",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "4 dentes"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "4 colheres de sopa"
+        },
+        {
+          "ingredient_name": "sal",
+          "quantity": "a gosto"
+        },
+        {
+          "ingredient_name": "tomilho",
+          "quantity": "2 ramos"
+        }
+      ],
+      "description": "Peixe inteiro assado com limão, alho e ervas. Frescor do mar no seu forno."
+    },
+    {
+      "recipe_name": "Estrogonofe de Frango",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "frango",
+          "quantity": "600g"
+        },
+        {
+          "ingredient_name": "creme de leite",
+          "quantity": "400ml"
+        },
+        {
+          "ingredient_name": "molho de tomate",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "cogumelo",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "mostarda",
+          "quantity": "1 colher de sopa"
+        },
+        {
+          "ingredient_name": "arroz",
+          "quantity": "300g"
+        }
+      ],
+      "description": "Tiras de frango em molho cremoso com cogumelos e mostarda. Clássico brasileiro que nunca sai de moda."
+    },
+    {
+      "recipe_name": "Lula Recheada",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1482803/pexels-photo-1482803.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "lula",
+          "quantity": "800g"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "3 dentes"
+        },
+        {
+          "ingredient_name": "pimentão",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "arroz",
+          "quantity": "150g"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "3 colheres de sopa"
+        }
+      ],
+      "description": "Lulas recheadas com arroz, tomate e temperos, assadas em molho aromático. Elegância mediterrânea."
+    },
+    {
+      "recipe_name": "Pernil Assado",
+      "recipe_people": 10,
+      "imagem_url": "https://images.pexels.com/photos/65175/pexels-photo-65175.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "pernil",
+          "quantity": "3kg"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "10 dentes"
+        },
+        {
+          "ingredient_name": "sal",
+          "quantity": "a gosto"
+        },
+        {
+          "ingredient_name": "pimenta do reino",
+          "quantity": "1 colher de sopa"
+        },
+        {
+          "ingredient_name": "colorau",
+          "quantity": "2 colheres de sopa"
+        }
+      ],
+      "description": "Pernil suíno temperado e assado lentamente até ficar dourado e macio. Estrela das festas de fim de ano."
+    },
+    {
+      "recipe_name": "Caldeirada de Peixe",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/2116094/pexels-photo-2116094.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "robalo",
+          "quantity": "600g"
+        },
+        {
+          "ingredient_name": "camarão",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "batata",
+          "quantity": "500g"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "3 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "pimentão",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "coentro",
+          "quantity": "1 maço"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "100ml"
+        }
+      ],
+      "description": "Ensopado português com peixes variados, camarão e legumes. Sabores do Atlântico numa só panela."
+    },
+    {
+      "recipe_name": "Filé Mignon ao Molho Madeira",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/3535383/pexels-photo-3535383.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "carne de vaca",
+          "quantity": "800g"
+        },
+        {
+          "ingredient_name": "cogumelo",
+          "quantity": "250g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "manteiga",
+          "quantity": "50g"
+        },
+        {
+          "ingredient_name": "creme de leite",
+          "quantity": "200ml"
+        }
+      ],
+      "description": "Filé mignon grelhado ao ponto, coberto com molho madeira e cogumelos. Sofisticação na medida certa."
+    },
+    {
+      "recipe_name": "Bacalhau com Natas",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "bacalhau",
+          "quantity": "800g"
+        },
+        {
+          "ingredient_name": "batata",
+          "quantity": "600g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "creme de leite",
+          "quantity": "500ml"
+        },
+        {
+          "ingredient_name": "queijo mozzarella",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "4 colheres de sopa"
+        }
+      ],
+      "description": "Bacalhau desfiado gratinado com natas, batatas e queijo. Cremosidade portuguesa incomparável."
+    },
+    {
+      "recipe_name": "Frango Xadrez",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "frango",
+          "quantity": "500g"
+        },
+        {
+          "ingredient_name": "pimentão",
+          "quantity": "3 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "shoyu",
+          "quantity": "4 colheres de sopa"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "3 dentes"
+        }
+      ],
+      "description": "Frango salteado com pimentões coloridos, cebola e molho shoyu. Sabor oriental simplificado."
+    },
+    {
+      "recipe_name": "Camarão na Moranga",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/1639556/pexels-photo-1639556.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "camarão",
+          "quantity": "600g"
+        },
+        {
+          "ingredient_name": "abóbora",
+          "quantity": "1 unidade (2kg)"
+        },
+        {
+          "ingredient_name": "requeijão",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "3 dentes"
+        }
+      ],
+      "description": "Camarões em molho cremoso servidos dentro de uma moranga assada. Apresentação espetacular."
+    },
+    {
+      "recipe_name": "Picadinho de Carne",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1640775/pexels-photo-1640775.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "carne de vaca",
+          "quantity": "500g"
+        },
+        {
+          "ingredient_name": "batata",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "pimentão",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "3 dentes"
+        },
+        {
+          "ingredient_name": "salsa",
+          "quantity": "1/2 maço"
+        }
+      ],
+      "description": "Cubinhos de carne refogados com batatas, tomate e temperos. Conforto brasileiro no prato."
+    },
+    {
+      "recipe_name": "Sopa de Lentilha",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/1152237/pexels-photo-1152237.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "lentilha",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "linguiça",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "cenoura",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "batata",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "3 dentes"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        }
+      ],
+      "description": "Sopa nutritiva de lentilhas com linguiça e legumes. Quentinha e reconfortante."
+    },
+    {
+      "recipe_name": "Robalo Grelhado",
+      "recipe_people": 2,
+      "imagem_url": "https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "robalo",
+          "quantity": "500g"
+        },
+        {
+          "ingredient_name": "limão",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "3 colheres de sopa"
+        },
+        {
+          "ingredient_name": "sal",
+          "quantity": "a gosto"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "2 dentes"
+        }
+      ],
+      "description": "Filé de robalo grelhado com limão e azeite. Simplicidade que valoriza o peixe fresco."
+    },
+    {
+      "recipe_name": "Carne de Panela",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/1999463/pexels-photo-1999463.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "carne de vaca",
+          "quantity": "1kg"
+        },
+        {
+          "ingredient_name": "batata",
+          "quantity": "500g"
+        },
+        {
+          "ingredient_name": "cenoura",
+          "quantity": "3 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "4 dentes"
+        },
+        {
+          "ingredient_name": "salsa",
+          "quantity": "1 maço"
+        }
+      ],
+      "description": "Carne cozida lentamente com legumes até desmanchar. Sabor de comida caseira."
+    },
+    {
+      "recipe_name": "Frango à Parmegiana",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "frango",
+          "quantity": "600g"
+        },
+        {
+          "ingredient_name": "molho de tomate",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "queijo mozzarella",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "queijo parmesão",
+          "quantity": "100g"
+        },
+        {
+          "ingredient_name": "farinha de trigo",
+          "quantity": "100g"
+        }
+      ],
+      "description": "Filé de frango empanado coberto com molho de tomate e queijo gratinado. Sucesso absoluto."
+    },
+    {
+      "recipe_name": "Arroz de Marisco",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "arroz",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "camarão",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "lula",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "pimentão",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "coentro",
+          "quantity": "1 maço"
+        }
+      ],
+      "description": "Arroz caldoso repleto de mariscos frescos, tomate e coentro. Festival de frutos do mar."
+    },
+    {
+      "recipe_name": "Costelinha ao Barbecue",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "costela de porco",
+          "quantity": "1kg"
+        },
+        {
+          "ingredient_name": "molho de tomate",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "mostarda",
+          "quantity": "2 colheres de sopa"
+        },
+        {
+          "ingredient_name": "vinagre",
+          "quantity": "2 colheres de sopa"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "4 dentes"
+        }
+      ],
+      "description": "Costelas de porco glazeadas com molho barbecue caseiro. Dedos lambidos garantidos."
+    },
+    {
+      "recipe_name": "Salada Caesar com Frango",
+      "recipe_people": 2,
+      "imagem_url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "frango",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "alface",
+          "quantity": "1 pé"
+        },
+        {
+          "ingredient_name": "queijo parmesão",
+          "quantity": "80g"
+        },
+        {
+          "ingredient_name": "maionese",
+          "quantity": "4 colheres de sopa"
+        },
+        {
+          "ingredient_name": "limão",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "pão",
+          "quantity": "2 fatias"
+        }
+      ],
+      "description": "Alface crocante com frango grelhado, croutons e molho caesar cremoso. Leve mas completa."
+    },
+    {
+      "recipe_name": "Bolinho de Bacalhau",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "bacalhau",
+          "quantity": "500g"
+        },
+        {
+          "ingredient_name": "batata",
+          "quantity": "500g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "2 dentes"
+        },
+        {
+          "ingredient_name": "salsa",
+          "quantity": "1/2 maço"
+        },
+        {
+          "ingredient_name": "farinha de trigo",
+          "quantity": "50g"
+        }
+      ],
+      "description": "Bolinhos crocantes de bacalhau desfiado com batata. Petisco português imperdível."
+    },
+    {
+      "recipe_name": "Yakisoba",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "macarrão",
+          "quantity": "500g"
+        },
+        {
+          "ingredient_name": "frango",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "pimentão",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "brócolis",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "cenoura",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "shoyu",
+          "quantity": "6 colheres de sopa"
+        }
+      ],
+      "description": "Macarrão oriental salteado com frango e legumes, temperado com shoyu. Praticidade asiática."
+    },
+    {
+      "recipe_name": "Feijão Tropeiro",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/4210863/pexels-photo-4210863.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "feijão carioca",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "bacon",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "linguiça",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "farinha de trigo",
+          "quantity": "200g (farinha de mandioca)"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "4 dentes"
+        },
+        {
+          "ingredient_name": "couve",
+          "quantity": "1 maço"
+        }
+      ],
+      "description": "Feijão refogado com bacon, linguiça, farinha de mandioca e couve. Tradição mineira no prato."
+    },
+    {
+      "recipe_name": "Hambúrguer Gourmet",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "carne de vaca",
+          "quantity": "600g"
+        },
+        {
+          "ingredient_name": "queijo cheddar",
+          "quantity": "4 fatias"
+        },
+        {
+          "ingredient_name": "bacon",
+          "quantity": "8 fatias"
+        },
+        {
+          "ingredient_name": "pão",
+          "quantity": "4 unidades"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "alface",
+          "quantity": "4 folhas"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        }
+      ],
+      "description": "Hambúrguer artesanal com queijo cheddar, bacon crocante e vegetais frescos. Burger de verdade."
+    },
+    {
+      "recipe_name": "Sopa de Ervilha",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "ervilha",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "bacon",
+          "quantity": "150g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "cenoura",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "batata",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "2 dentes"
+        }
+      ],
+      "description": "Sopa cremosa de ervilhas com bacon defumado. Aquece corpo e alma."
+    },
+    {
+      "recipe_name": "Camarão ao Alho e Óleo",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1305616/pexels-photo-1305616.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "camarão",
+          "quantity": "600g"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "8 dentes"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "100ml"
+        },
+        {
+          "ingredient_name": "pimenta calabresa",
+          "quantity": "1 colher de chá"
+        },
+        {
+          "ingredient_name": "salsa",
+          "quantity": "1/2 maço"
+        }
+      ],
+      "description": "Camarões salteados em alho dourado, azeite e pimenta. Clássico simples e delicioso."
+    },
+    {
+      "recipe_name": "Caldo Verde",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "batata",
+          "quantity": "600g"
+        },
+        {
+          "ingredient_name": "couve",
+          "quantity": "1 maço"
+        },
+        {
+          "ingredient_name": "linguiça",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "3 dentes"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "4 colheres de sopa"
+        }
+      ],
+      "description": "Sopa portuguesa de batata com couve fatiada finamente e linguiça. Tradição em cada colherada."
+    },
+    {
+      "recipe_name": "Frango Assado com Batatas",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/65175/pexels-photo-65175.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "frango",
+          "quantity": "1.5kg"
+        },
+        {
+          "ingredient_name": "batata",
+          "quantity": "800g"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "6 dentes"
+        },
+        {
+          "ingredient_name": "limão",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "4 colheres de sopa"
+        },
+        {
+          "ingredient_name": "sal",
+          "quantity": "a gosto"
+        },
+        {
+          "ingredient_name": "pimenta do reino",
+          "quantity": "a gosto"
+        }
+      ],
+      "description": "Frango inteiro assado com batatas, alho e limão. Domingo em família garantido."
+    },
+    {
+      "recipe_name": "Berinjela à Parmegiana",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "berinjela",
+          "quantity": "3 unidades"
+        },
+        {
+          "ingredient_name": "molho de tomate",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "queijo mozzarella",
+          "quantity": "250g"
+        },
+        {
+          "ingredient_name": "queijo parmesão",
+          "quantity": "100g"
+        },
+        {
+          "ingredient_name": "manjericão",
+          "quantity": "1 maço"
+        }
+      ],
+      "description": "Fatias de berinjela empanadas gratinadas com molho e queijo. Opção vegetariana saborosa."
+    },
+    {
+      "recipe_name": "Linguiça Acebolada",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1857729/pexels-photo-1857729.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "linguiça",
+          "quantity": "600g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "4 unidades"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "pimentão",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "vinagre",
+          "quantity": "2 colheres de sopa"
+        }
+      ],
+      "description": "Linguiça fatiada refogada com cebolas caramelizadas. Simplicidade que funciona."
+    },
+    {
+      "recipe_name": "Grão de Bico ao Curry",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "grão de bico",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "curry",
+          "quantity": "2 colheres de sopa"
+        },
+        {
+          "ingredient_name": "leite",
+          "quantity": "400ml (leite de coco)"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "3 dentes"
+        },
+        {
+          "ingredient_name": "espinafre",
+          "quantity": "200g"
+        }
+      ],
+      "description": "Grão de bico em molho cremoso de curry com espinafre. Vegetariano e proteico."
+    },
+    {
+      "recipe_name": "Espaguete à Bolonhesa",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/128408/pexels-photo-128408.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "macarrão",
+          "quantity": "500g"
+        },
+        {
+          "ingredient_name": "carne de vaca",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "molho de tomate",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "3 dentes"
+        },
+        {
+          "ingredient_name": "queijo parmesão",
+          "quantity": "80g"
+        }
+      ],
+      "description": "Espaguete com molho de carne moída, tomate e ervas. Clássico que agrada todas as idades."
+    },
+    {
+      "recipe_name": "Atum com Grão de Bico",
+      "recipe_people": 2,
+      "imagem_url": "https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "atum",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "grão de bico",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1/2 unidade"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "3 colheres de sopa"
+        },
+        {
+          "ingredient_name": "salsa",
+          "quantity": "1/2 maço"
+        }
+      ],
+      "description": "Salada nutritiva de atum com grão de bico, tomate e temperos. Leve e completa."
+    },
+    {
+      "recipe_name": "Strogonoff de Carne",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1640775/pexels-photo-1640775.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "carne de vaca",
+          "quantity": "600g"
+        },
+        {
+          "ingredient_name": "creme de leite",
+          "quantity": "400ml"
+        },
+        {
+          "ingredient_name": "molho de tomate",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "cogumelo",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "mostarda",
+          "quantity": "1 colher de sopa"
+        }
+      ],
+      "description": "Tiras de carne em molho cremoso com cogumelos. Clássico russo-brasileiro."
+    },
+    {
+      "recipe_name": "Caçarola de Frango",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "frango",
+          "quantity": "800g"
+        },
+        {
+          "ingredient_name": "batata",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "cenoura",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "ervilha",
+          "quantity": "150g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "molho de tomate",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "queijo mozzarella",
+          "quantity": "200g"
+        }
+      ],
+      "description": "Frango gratinado com legumes e queijo derretido. Refeição completa em uma travessa."
+    },
+    {
+      "recipe_name": "Salada de Quinoa",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "quinoa",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1/2 unidade"
+        },
+        {
+          "ingredient_name": "limão",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "4 colheres de sopa"
+        },
+        {
+          "ingredient_name": "salsa",
+          "quantity": "1/2 maço"
+        }
+      ],
+      "description": "Quinoa com tomate, cebola, limão e ervas. Saúde e sabor em equilíbrio."
+    },
+    {
+      "recipe_name": "Torta de Frango",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/116738/pexels-photo-116738.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "frango",
+          "quantity": "500g"
+        },
+        {
+          "ingredient_name": "requeijão",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "ervilha",
+          "quantity": "100g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "farinha de trigo",
+          "quantity": "300g"
+        }
+      ],
+      "description": "Torta com recheio cremoso de frango e requeijão. Perfeita para festas."
+    },
+    {
+      "recipe_name": "Bacalhau à Gomes de Sá",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/10040705/pexels-photo-10040705.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "bacalhau",
+          "quantity": "800g"
+        },
+        {
+          "ingredient_name": "batata",
+          "quantity": "600g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "3 unidades"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "4 dentes"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "150ml"
+        },
+        {
+          "ingredient_name": "salsa",
+          "quantity": "1 maço"
+        }
+      ],
+      "description": "Bacalhau em camadas com batatas, ovos e cebola. Receita centenária portuguesa."
+    },
+    {
+      "recipe_name": "Frango Teriyaki",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "frango",
+          "quantity": "600g"
+        },
+        {
+          "ingredient_name": "shoyu",
+          "quantity": "6 colheres de sopa"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "3 dentes"
+        },
+        {
+          "ingredient_name": "arroz",
+          "quantity": "300g"
+        }
+      ],
+      "description": "Frango glazeado com molho teriyaki agridoce. Sabor japonês autêntico."
+    },
+    {
+      "recipe_name": "Carne Assada com Legumes",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/1999463/pexels-photo-1999463.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "carne de vaca",
+          "quantity": "1.2kg"
+        },
+        {
+          "ingredient_name": "batata",
+          "quantity": "500g"
+        },
+        {
+          "ingredient_name": "cenoura",
+          "quantity": "3 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "6 dentes"
+        },
+        {
+          "ingredient_name": "alecrim",
+          "quantity": "3 ramos"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "4 colheres de sopa"
+        }
+      ],
+      "description": "Carne de vaca assada com legumes mediterrâneos. Suculento e aromático."
+    },
+    {
+      "recipe_name": "Arroz de Frango",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "frango",
+          "quantity": "500g"
+        },
+        {
+          "ingredient_name": "arroz",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "pimentão",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "3 dentes"
+        },
+        {
+          "ingredient_name": "colorau",
+          "quantity": "1 colher de sopa"
+        }
+      ],
+      "description": "Arroz cozido com frango desfiado e temperos. Conforto em forma de grão."
+    },
+    {
+      "recipe_name": "Panqueca de Frango",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "frango",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "farinha de trigo",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "leite",
+          "quantity": "400ml"
+        },
+        {
+          "ingredient_name": "molho de tomate",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "queijo mozzarella",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        }
+      ],
+      "description": "Panquecas recheadas com frango cremoso e gratinadas. Sempre uma boa escolha."
+    },
+    {
+      "recipe_name": "Omelete de Legumes",
+      "recipe_people": 2,
+      "imagem_url": "https://images.pexels.com/photos/566566/pexels-photo-566566.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "tomate",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1/2 unidade"
+        },
+        {
+          "ingredient_name": "pimentão",
+          "quantity": "1/2 unidade"
+        },
+        {
+          "ingredient_name": "queijo mozzarella",
+          "quantity": "50g"
+        },
+        {
+          "ingredient_name": "salsa",
+          "quantity": "2 colheres de sopa"
+        }
+      ],
+      "description": "Omelete fofinha repleta de vegetais frescos. Começo de dia perfeito."
+    },
+    {
+      "recipe_name": "Costeletas de Cordeiro",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/410648/pexels-photo-410648.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "cordeiro",
+          "quantity": "800g"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "4 dentes"
+        },
+        {
+          "ingredient_name": "alecrim",
+          "quantity": "4 ramos"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "4 colheres de sopa"
+        },
+        {
+          "ingredient_name": "sal",
+          "quantity": "a gosto"
+        },
+        {
+          "ingredient_name": "pimenta do reino",
+          "quantity": "a gosto"
+        }
+      ],
+      "description": "Costeletas grelhadas com alecrim e alho. Sabor marcante e elegante."
+    },
+    {
+      "recipe_name": "Abobrinha Recheada",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "abobrinha",
+          "quantity": "4 unidades"
+        },
+        {
+          "ingredient_name": "carne de vaca",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "arroz",
+          "quantity": "100g"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "queijo mozzarella",
+          "quantity": "150g"
+        }
+      ],
+      "description": "Abobrinhas recheadas com carne e arroz, gratinadas. Criatividade saudável."
+    },
+    {
+      "recipe_name": "Peixe à Delícia",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "robalo",
+          "quantity": "600g"
+        },
+        {
+          "ingredient_name": "camarão",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "requeijão",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "queijo parmesão",
+          "quantity": "100g"
+        }
+      ],
+      "description": "Peixe gratinado com camarão e molho cremoso. Nome que faz jus ao sabor."
+    },
+    {
+      "recipe_name": "Sopa de Legumes",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "batata",
+          "quantity": "3 unidades"
+        },
+        {
+          "ingredient_name": "cenoura",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "abobrinha",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "2 dentes"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "couve",
+          "quantity": "1/2 maço"
+        }
+      ],
+      "description": "Sopa nutritiva repleta de vegetais frescos. Saúde líquida na tigela."
+    },
+    {
+      "recipe_name": "Frango com Quiabo",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "frango",
+          "quantity": "800g"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "3 dentes"
+        },
+        {
+          "ingredient_name": "colorau",
+          "quantity": "1 colher de sopa"
+        }
+      ],
+      "description": "Frango ensopado com quiabos em molho espesso. Tradição do interior brasileiro."
+    },
+    {
+      "recipe_name": "Salada Niçoise",
+      "recipe_people": 2,
+      "imagem_url": "https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "atum",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "batata",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "alface",
+          "quantity": "1/2 pé"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "3 colheres de sopa"
+        },
+        {
+          "ingredient_name": "vinagre",
+          "quantity": "1 colher de sopa"
+        }
+      ],
+      "description": "Salada francesa com atum, batata, ovos e vegetais. Refeição completa e fresca."
+    },
+    {
+      "recipe_name": "Arroz à Grega",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "arroz",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "ervilha",
+          "quantity": "100g"
+        },
+        {
+          "ingredient_name": "cenoura",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "pimentão",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        }
+      ],
+      "description": "Arroz colorido com ervilha, cenoura e passas. Alegria no prato."
+    },
+    {
+      "recipe_name": "Bife à Cavalo",
+      "recipe_people": 2,
+      "imagem_url": "https://images.pexels.com/photos/1857729/pexels-photo-1857729.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "carne de vaca",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "batata",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "2 dentes"
+        },
+        {
+          "ingredient_name": "salsa",
+          "quantity": "2 colheres de sopa"
+        }
+      ],
+      "description": "Bife coberto com ovo frito e acompanhamentos. Clássico dos restaurantes tradicionais."
+    },
+    {
+      "recipe_name": "Camarão no Coco",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1639556/pexels-photo-1639556.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "camarão",
+          "quantity": "600g"
+        },
+        {
+          "ingredient_name": "leite",
+          "quantity": "400ml (leite de coco)"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "pimentão",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "coentro",
+          "quantity": "1 maço"
+        }
+      ],
+      "description": "Camarões em molho cremoso de leite de coco. Tropical e delicioso."
+    },
+    {
+      "recipe_name": "Nhoque à Bolonhesa",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/128408/pexels-photo-128408.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "batata",
+          "quantity": "600g"
+        },
+        {
+          "ingredient_name": "farinha de trigo",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "carne de vaca",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "molho de tomate",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "queijo parmesão",
+          "quantity": "80g"
+        }
+      ],
+      "description": "Nhoque de batata com molho bolonhesa rico. Itália encontra Brasil."
+    },
+    {
+      "recipe_name": "Penne ao Pesto",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "macarrão",
+          "quantity": "500g"
+        },
+        {
+          "ingredient_name": "manjericão",
+          "quantity": "2 maços"
+        },
+        {
+          "ingredient_name": "queijo parmesão",
+          "quantity": "100g"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "2 dentes"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "100ml"
+        }
+      ],
+      "description": "Penne com molho pesto fresco de manjericão. Verde, aromático e delicioso."
+    },
+    {
+      "recipe_name": "Bobó de Camarão",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "camarão",
+          "quantity": "600g"
+        },
+        {
+          "ingredient_name": "leite",
+          "quantity": "400ml (leite de coco)"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "pimentão",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "coentro",
+          "quantity": "1 maço"
+        }
+      ],
+      "description": "Camarões em creme de mandioca com leite de coco. Bahia no seu prato."
+    },
+    {
+      "recipe_name": "Vaca Atolada",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/1999463/pexels-photo-1999463.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "costela de porco",
+          "quantity": "1kg"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "4 dentes"
+        },
+        {
+          "ingredient_name": "cebolinha",
+          "quantity": "1 maço"
+        }
+      ],
+      "description": "Costela com mandioca cozida até o molho encorpar. Sabor caipira autêntico."
+    },
+    {
+      "recipe_name": "Espetinho de Frango",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "frango",
+          "quantity": "600g"
+        },
+        {
+          "ingredient_name": "pimentão",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "bacon",
+          "quantity": "150g"
+        },
+        {
+          "ingredient_name": "sal",
+          "quantity": "a gosto"
+        },
+        {
+          "ingredient_name": "pimenta do reino",
+          "quantity": "a gosto"
+        }
+      ],
+      "description": "Espetinhos de frango intercalados com bacon e pimentão. Festa do churrasco."
+    },
+    {
+      "recipe_name": "Tutu de Feijão",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/4210863/pexels-photo-4210863.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "feijão preto",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "farinha de trigo",
+          "quantity": "200g (farinha de mandioca)"
+        },
+        {
+          "ingredient_name": "bacon",
+          "quantity": "150g"
+        },
+        {
+          "ingredient_name": "linguiça",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "4 dentes"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        }
+      ],
+      "description": "Feijão amassado com bacon, linguiça e farinha. Mineiridade pura."
+    },
+    {
+      "recipe_name": "Frango na Cerveja",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/65175/pexels-photo-65175.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "frango",
+          "quantity": "1kg"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "4 dentes"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "colorau",
+          "quantity": "1 colher de sopa"
+        }
+      ],
+      "description": "Frango cozido em cerveja com temperos. Suculento e aromático."
+    },
+    {
+      "recipe_name": "Caldinho de Feijão",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/4210863/pexels-photo-4210863.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "feijão carioca",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "bacon",
+          "quantity": "150g"
+        },
+        {
+          "ingredient_name": "linguiça",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "3 dentes"
+        },
+        {
+          "ingredient_name": "coentro",
+          "quantity": "1 maço"
+        }
+      ],
+      "description": "Caldo cremoso de feijão com bacon e linguiça. Perfeito para aquecer."
+    },
+    {
+      "recipe_name": "Salmão com Crosta de Ervas",
+      "recipe_people": 2,
+      "imagem_url": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "salmão",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "manjericão",
+          "quantity": "1/2 maço"
+        },
+        {
+          "ingredient_name": "salsa",
+          "quantity": "1/2 maço"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "2 dentes"
+        },
+        {
+          "ingredient_name": "pão",
+          "quantity": "2 fatias"
+        },
+        {
+          "ingredient_name": "manteiga",
+          "quantity": "30g"
+        }
+      ],
+      "description": "Salmão com crosta crocante de ervas e pão. Sofisticação fácil."
+    },
+    {
+      "recipe_name": "Peixada",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/2116094/pexels-photo-2116094.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "robalo",
+          "quantity": "1kg"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "3 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "pimentão",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "batata",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "coentro",
+          "quantity": "1 maço"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "4 colheres de sopa"
+        }
+      ],
+      "description": "Ensopado de peixe com legumes e temperos. Panela que alimenta a alma."
+    },
+    {
+      "recipe_name": "Macarrão ao Alho e Óleo",
+      "recipe_people": 2,
+      "imagem_url": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "macarrão",
+          "quantity": "250g"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "6 dentes"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "80ml"
+        },
+        {
+          "ingredient_name": "pimenta calabresa",
+          "quantity": "1 colher de chá"
+        },
+        {
+          "ingredient_name": "salsa",
+          "quantity": "2 colheres de sopa"
+        }
+      ],
+      "description": "Simplicidade italiana: massa, alho, azeite e pimenta. Menos é mais."
+    },
+    {
+      "recipe_name": "Filé de Frango Recheado",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "frango",
+          "quantity": "600g"
+        },
+        {
+          "ingredient_name": "queijo mozzarella",
+          "quantity": "150g"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "manjericão",
+          "quantity": "1/2 maço"
+        }
+      ],
+      "description": "Filé recheado com queijo e tomate, suculento. Apresentação elegante."
+    },
+    {
+      "recipe_name": "Sopa de Cebola",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "cebola",
+          "quantity": "6 unidades"
+        },
+        {
+          "ingredient_name": "manteiga",
+          "quantity": "50g"
+        },
+        {
+          "ingredient_name": "pão",
+          "quantity": "4 fatias"
+        },
+        {
+          "ingredient_name": "queijo mozzarella",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "tomilho",
+          "quantity": "2 ramos"
+        }
+      ],
+      "description": "Sopa francesa gratinada com queijo derretido. Clássico parisiense."
+    },
+    {
+      "recipe_name": "Cassoulet",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/4210863/pexels-photo-4210863.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "feijão carioca",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "linguiça",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "bacon",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "cordeiro",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "3 unidades"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "4 dentes"
+        },
+        {
+          "ingredient_name": "tomilho",
+          "quantity": "3 ramos"
+        }
+      ],
+      "description": "Ensopado francês de feijão com carnes variadas. Robusto e saboroso."
+    },
+    {
+      "recipe_name": "Arroz de Carreteiro",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "arroz",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "carne de vaca",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "4 dentes"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "pimentão",
+          "quantity": "1 unidade"
+        }
+      ],
+      "description": "Arroz com carne seca desfiada e temperos. Tradição gaúcha."
+    },
+    {
+      "recipe_name": "Virado à Paulista",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/4210863/pexels-photo-4210863.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "feijão carioca",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "linguiça",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "bacon",
+          "quantity": "150g"
+        },
+        {
+          "ingredient_name": "couve",
+          "quantity": "1 maço"
+        },
+        {
+          "ingredient_name": "farinha de trigo",
+          "quantity": "150g (farinha de mandioca)"
+        },
+        {
+          "ingredient_name": "arroz",
+          "quantity": "300g"
+        }
+      ],
+      "description": "Feijão com farinha, linguiça, bacon e couve. São Paulo no prato."
+    },
+    {
+      "recipe_name": "Tagliatelle ao Funghi",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "macarrão",
+          "quantity": "500g"
+        },
+        {
+          "ingredient_name": "cogumelo",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "creme de leite",
+          "quantity": "300ml"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "3 dentes"
+        },
+        {
+          "ingredient_name": "queijo parmesão",
+          "quantity": "80g"
+        },
+        {
+          "ingredient_name": "manteiga",
+          "quantity": "40g"
+        }
+      ],
+      "description": "Tagliatelle em molho cremoso de cogumelos. Cremosidade italiana."
+    },
+    {
+      "recipe_name": "Pescada Assada",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "robalo",
+          "quantity": "800g"
+        },
+        {
+          "ingredient_name": "batata",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "pimentão",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "4 colheres de sopa"
+        },
+        {
+          "ingredient_name": "limão",
+          "quantity": "1 unidade"
+        }
+      ],
+      "description": "Peixe assado com batatas e legumes mediterrâneos. Frescor assado."
+    },
+    {
+      "recipe_name": "Carne Louca",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/1999463/pexels-photo-1999463.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "carne de vaca",
+          "quantity": "1kg"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "3 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "pimentão",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "colorau",
+          "quantity": "1 colher de sopa"
+        }
+      ],
+      "description": "Carne desfiada muito temperada e picante. Intensidade em cada garfada."
+    },
+    {
+      "recipe_name": "Escondidinho de Carne Seca",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/116738/pexels-photo-116738.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "carne de vaca",
+          "quantity": "600g"
+        },
+        {
+          "ingredient_name": "batata",
+          "quantity": "800g"
+        },
+        {
+          "ingredient_name": "manteiga",
+          "quantity": "50g"
+        },
+        {
+          "ingredient_name": "leite",
+          "quantity": "200ml"
+        },
+        {
+          "ingredient_name": "queijo mozzarella",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        }
+      ],
+      "description": "Purê de mandioca cobrindo carne seca refogada. Nordeste gratinado."
+    },
+    {
+      "recipe_name": "Frango à Milanesa",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "frango",
+          "quantity": "600g"
+        },
+        {
+          "ingredient_name": "farinha de trigo",
+          "quantity": "100g"
+        },
+        {
+          "ingredient_name": "limão",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "2 dentes"
+        }
+      ],
+      "description": "Frango empanado crocante e dourado. Favorito eterno das crianças."
+    },
+    {
+      "recipe_name": "Vatapá",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "camarão",
+          "quantity": "500g"
+        },
+        {
+          "ingredient_name": "pão",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "leite",
+          "quantity": "400ml (leite de coco)"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "pimentão",
+          "quantity": "1 unidade"
+        }
+      ],
+      "description": "Creme baiano de camarão, pão, amendoim e dendê. Axé no paladar."
+    },
+    {
+      "recipe_name": "Rabada",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/1999463/pexels-photo-1999463.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "carne de vaca",
+          "quantity": "1.5kg"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "3 unidades"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "6 dentes"
+        },
+        {
+          "ingredient_name": "colorau",
+          "quantity": "1 colher de sopa"
+        }
+      ],
+      "description": "Rabada cozida lentamente até desmanchar. Paciência recompensada."
+    },
+    {
+      "recipe_name": "Camarão Empanado",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1305616/pexels-photo-1305616.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "camarão",
+          "quantity": "500g"
+        },
+        {
+          "ingredient_name": "farinha de trigo",
+          "quantity": "100g"
+        },
+        {
+          "ingredient_name": "limão",
+          "quantity": "1 unidade"
+        }
+      ],
+      "description": "Camarões envolvidos em crosta dourada e crocante. Aperitivo irresistível."
+    },
+    {
+      "recipe_name": "Arroz de Pato",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "frango",
+          "quantity": "1kg"
+        },
+        {
+          "ingredient_name": "arroz",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "linguiça",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "bacon",
+          "quantity": "100g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "4 dentes"
+        }
+      ],
+      "description": "Arroz cremoso com pato desfiado e linguiça. Minho português."
+    },
+    {
+      "recipe_name": "Bife à Rolê",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/3535383/pexels-photo-3535383.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "carne de vaca",
+          "quantity": "600g"
+        },
+        {
+          "ingredient_name": "bacon",
+          "quantity": "100g"
+        },
+        {
+          "ingredient_name": "cenoura",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "molho de tomate",
+          "quantity": "300g"
+        }
+      ],
+      "description": "Bife recheado enrolado e cozido em molho. Apresentação impressionante."
+    },
+    {
+      "recipe_name": "Feijão Branco com Legumes",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/4210863/pexels-photo-4210863.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "feijão carioca",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "cenoura",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "batata",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "3 dentes"
+        },
+        {
+          "ingredient_name": "salsa",
+          "quantity": "1/2 maço"
+        }
+      ],
+      "description": "Feijão branco cremoso com vegetais variados. Nutritivo e gostoso."
+    },
+    {
+      "recipe_name": "Arroz com Brócolis",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "arroz",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "brócolis",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "3 dentes"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "queijo parmesão",
+          "quantity": "60g"
+        },
+        {
+          "ingredient_name": "manteiga",
+          "quantity": "30g"
+        }
+      ],
+      "description": "Arroz soltinho com brócolis e queijo. Acompanhamento que vira prato principal."
+    },
+    {
+      "recipe_name": "Carne de Sol com Macaxeira",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1999463/pexels-photo-1999463.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "carne de vaca",
+          "quantity": "500g"
+        },
+        {
+          "ingredient_name": "batata",
+          "quantity": "500g"
+        },
+        {
+          "ingredient_name": "manteiga",
+          "quantity": "50g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "3 dentes"
+        }
+      ],
+      "description": "Carne seca desfiada com mandioca cremosa. Sertão na mesa."
+    },
+    {
+      "recipe_name": "Polenta com Ragu",
+      "recipe_people": 6,
+      "imagem_url": "https://images.pexels.com/photos/128408/pexels-photo-128408.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "farinha de trigo",
+          "quantity": "300g (fubá)"
+        },
+        {
+          "ingredient_name": "carne de vaca",
+          "quantity": "500g"
+        },
+        {
+          "ingredient_name": "molho de tomate",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "3 dentes"
+        },
+        {
+          "ingredient_name": "queijo parmesão",
+          "quantity": "100g"
+        }
+      ],
+      "description": "Polenta cremosa coberta com ragu de carne. Italiano aconchegante."
+    },
+    {
+      "recipe_name": "Salada Caprese",
+      "recipe_people": 2,
+      "imagem_url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "tomate",
+          "quantity": "3 unidades"
+        },
+        {
+          "ingredient_name": "queijo mozzarella",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "manjericão",
+          "quantity": "1 maço"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "3 colheres de sopa"
+        },
+        {
+          "ingredient_name": "sal",
+          "quantity": "a gosto"
+        }
+      ],
+      "description": "Tomate, mozzarella e manjericão fresco. Tricolor italiano."
+    },
+    {
+      "recipe_name": "Risoto de Cogumelos",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/725997/pexels-photo-725997.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "arroz",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "cogumelo",
+          "quantity": "300g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "3 dentes"
+        },
+        {
+          "ingredient_name": "queijo parmesão",
+          "quantity": "100g"
+        },
+        {
+          "ingredient_name": "manteiga",
+          "quantity": "50g"
+        }
+      ],
+      "description": "Arroz cremoso com cogumelos variados. Umami em cada colherada."
+    },
+    {
+      "recipe_name": "Sopa de Abóbora",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "abóbora",
+          "quantity": "800g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "2 dentes"
+        },
+        {
+          "ingredient_name": "creme de leite",
+          "quantity": "200ml"
+        }
+      ],
+      "description": "Sopa cremosa de abóbora com toque de gengibre. Aveludada e aromática."
+    },
+    {
+      "recipe_name": "Filé de Peixe à Belle Meunière",
+      "recipe_people": 2,
+      "imagem_url": "https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "robalo",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "manteiga",
+          "quantity": "60g"
+        },
+        {
+          "ingredient_name": "limão",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "farinha de trigo",
+          "quantity": "50g"
+        },
+        {
+          "ingredient_name": "salsa",
+          "quantity": "2 colheres de sopa"
+        }
+      ],
+      "description": "Peixe dourado na manteiga com molho de limão. Francesa clássica."
+    },
+    {
+      "recipe_name": "Caponata",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "berinjela",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "3 unidades"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "ingredient_name": "vinagre",
+          "quantity": "2 colheres de sopa"
+        },
+        {
+          "ingredient_name": "azeite",
+          "quantity": "4 colheres de sopa"
+        }
+      ],
+      "description": "Berinjela siciliana agridoce com tomate e azeitonas. Antipasto refinado."
+    },
+    {
+      "recipe_name": "Barreado",
+      "recipe_people": 8,
+      "imagem_url": "https://images.pexels.com/photos/1999463/pexels-photo-1999463.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "carne de vaca",
+          "quantity": "1.5kg"
+        },
+        {
+          "ingredient_name": "bacon",
+          "quantity": "200g"
+        },
+        {
+          "ingredient_name": "cebola",
+          "quantity": "3 unidades"
+        },
+        {
+          "ingredient_name": "tomate",
+          "quantity": "2 unidades"
+        },
+        {
+          "ingredient_name": "cominho",
+          "quantity": "1 colher de chá"
+        },
+        {
+          "ingredient_name": "farinha de trigo",
+          "quantity": "300g (farinha de mandioca)"
+        }
+      ],
+      "description": "Carne cozida em panela de barro por horas. Litoral paranaense."
+    },
+    {
+      "recipe_name": "Tacacá",
+      "recipe_people": 4,
+      "imagem_url": "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg",
+      "recipe_ingredients": [
+        {
+          "ingredient_name": "camarão",
+          "quantity": "400g"
+        },
+        {
+          "ingredient_name": "alho",
+          "quantity": "4 dentes"
+        },
+        {
+          "ingredient_name": "pimenta calabresa",
+          "quantity": "a gosto"
+        }
+      ],
+      "description": "Caldo de tucupi com camarão e jambu. Amazônia fervilhante."
+    }
+  ]
+}
