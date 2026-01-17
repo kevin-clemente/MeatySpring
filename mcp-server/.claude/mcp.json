@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "fetch": {
+      "command": "npx",
+      "args": ["-y", "@anthropics/mcp-fetch"]
+    },
+    "meaty-api": {
+      "command": "node",
+      "args": ["/Users/kevinclemente/DEV/Meaty/MeatySpring/mcp-server/index.js"],
+      "env": {
+        "MEATY_API_URL": "http://localhost:8080"
+      }
+    }
+  }
+}
